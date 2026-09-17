@@ -119,6 +119,12 @@
       margin-top: 0.85rem;
       padding: 0 0.2rem;
     }
+    .plate-end {
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+      gap: 0.45rem;
+    }
     .plate h2 {
       margin: 0;
       font-family: "Noto Serif SC", serif;
@@ -140,20 +146,12 @@
       white-space: nowrap;
     }
     .enter {
-      position: absolute;
-      left: 50%;
-      bottom: 1.5rem;
-      transform: translateX(-50%);
-      z-index: 2;
-      padding: 0.45rem 0.95rem;
-      border: 1px solid var(--salt);
-      background: color-mix(in srgb, var(--sea-deep) 62%, transparent);
-      color: var(--salt);
-      font-size: 0.82rem;
-      letter-spacing: 0.16em;
+      padding: 0.35rem 0.8rem;
+      border: 1px solid var(--brass);
+      color: var(--brass);
+      font-size: 0.78rem;
+      letter-spacing: 0.14em;
       white-space: nowrap;
-      writing-mode: horizontal-tb;
-      width: max-content;
     }
     .stage {
       position: fixed;
@@ -207,12 +205,13 @@
       min-height: 0;
       background: #122026;
     }
+    #viewer:focus { outline: 1px solid color-mix(in srgb, var(--brass) 45%, transparent); }
     #viewer canvas { width: 100%; height: 100%; display: block; }
     @media (max-width: 700px) {
       .corridor { padding-inline: 0.8rem; gap: 1.8rem; }
       .frame { height: 72vh; padding: 10px 10px 14px; }
       .plate { flex-direction: column; align-items: start; }
-      .enter { letter-spacing: 0.1em; }
+      .plate-end { align-items: start; }
       .mast b { display: none; }
     }
     @media (prefers-reduced-motion: reduce) {

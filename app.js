@@ -24,14 +24,16 @@ function doorFor(world) {
   button.innerHTML = `
     <span class="frame">
       <img class="room" alt="" src="${world.thumbnailUrl}" data-pano="${world.panoramaUrl}">
-      <span class="enter">走进去</span>
     </span>
     <span class="plate">
       <span>
         <h2>${world.name}</h2>
         <small>${world.place}</small>
       </span>
-      <time datetime="${world.date.replaceAll(".", "-")}">${world.date}</time>
+      <span class="plate-end">
+        <time datetime="${world.date.replaceAll(".", "-")}">${world.date}</time>
+        <span class="enter">走进去</span>
+      </span>
     </span>
   `;
   button.addEventListener("click", () => openWorld(world.id));
