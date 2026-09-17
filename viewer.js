@@ -13,6 +13,9 @@ export async function mountWorldViewer({ container, world, quality = "preview", 
   if (!container || !splatUrl) throw new Error("world_splat_missing");
 
   onStatus("正在读取空间…");
+  const response = await fetch(splatUrl);
+  if (!response.ok) throw new Error(`splat_http_${response.status}`);
+  const fileBytes = await response.arrayBuffer();
   const renderer = new THREE.WebGLRenderer({ antialias: false, alpha: false, powerPreference: "high-performance" });
   renderer.setPixelRatio(Math.min(globalThis.devicePixelRatio || 1, 1.75));
   renderer.setClearColor(0x122026, 1);
@@ -42,7 +45,8 @@ export async function mountWorldViewer({ container, world, quality = "preview", 
   let loaded = false;
   let worldRadius = 4;
   const splats = new SplatMesh({
-    url: splatUrl,
+    fileBytes,
+    fileName: `${world.id || "world"}.spz`,
     lod: true,
     onProgress(event) {
       if (!event?.lengthComputable) return onStatus("正在读取点云…");

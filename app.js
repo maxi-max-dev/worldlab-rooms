@@ -70,8 +70,13 @@ async function loadViewer() {
     });
     viewer.focus();
   } catch (error) {
-    status.textContent = "这个房间打不开，去 Marble 看原页。";
     console.error(error);
+    status.textContent = "三维暂时打不开，先看全景。去 Marble 可进原世界。";
+    const img = document.createElement("img");
+    img.src = currentWorld.panoramaUrl;
+    img.alt = currentWorld.name;
+    img.style.cssText = "width:100%;height:100%;object-fit:cover;";
+    viewer.replaceChildren(img);
   }
 }
 

@@ -89,6 +89,7 @@
     }
     .frame {
       position: relative;
+      overflow: hidden;
       height: min(78vh, 640px);
       padding: 14px 14px 18px;
       background:
@@ -141,14 +142,18 @@
     .enter {
       position: absolute;
       left: 50%;
-      bottom: 2.1rem;
+      bottom: 1.5rem;
       transform: translateX(-50%);
-      padding: 0.45rem 0.9rem;
+      z-index: 2;
+      padding: 0.45rem 0.95rem;
       border: 1px solid var(--salt);
-      background: color-mix(in srgb, var(--sea-deep) 55%, transparent);
+      background: color-mix(in srgb, var(--sea-deep) 62%, transparent);
       color: var(--salt);
       font-size: 0.82rem;
       letter-spacing: 0.16em;
+      white-space: nowrap;
+      writing-mode: horizontal-tb;
+      width: max-content;
     }
     .stage {
       position: fixed;
@@ -208,6 +213,7 @@
       .frame { height: 72vh; padding: 10px 10px 14px; }
       .plate { flex-direction: column; align-items: start; }
       .enter { letter-spacing: 0.1em; }
+      .mast b { display: none; }
     }
     @media (prefers-reduced-motion: reduce) {
       * { scroll-behavior: auto !important; }
