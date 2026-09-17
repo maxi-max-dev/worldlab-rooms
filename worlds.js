@@ -1,52 +1,46 @@
 export const worlds = [
   {
-    id: "d46b0360-e7cb-4e4d-95f7-d2a534cc3828",
-    name: "厦门",
-    place: "山坡上看海",
-    date: "2026.09.13",
-    spaceId: "space_fcca65541c0745c183fe5a3f952cf27a",
-    marbleUrl: "https://marble.worldlabs.ai/world/d46b0360-e7cb-4e4d-95f7-d2a534cc3828",
-    thumbnailUrl: "https://cdn.marble.worldlabs.ai/d46b0360-e7cb-4e4d-95f7-d2a534cc3828/b3341b3b-956d-43b9-a115-69dfe769ea65_sand_mpi/thumbnail.webp",
-    panoramaUrl: "https://cdn.marble.worldlabs.ai/d46b0360-e7cb-4e4d-95f7-d2a534cc3828/a8a4691c-e4cf-465b-9d9b-d0a4871b258f_pano/rgb_0.png",
+    id: "585ed6bd-7c49-4460-aac0-104f878af2f1",
+    name: "城堡 · 八图",
+    place: "openMVG 公开集 · 测试",
+    date: "2026.09.03",
+    marbleUrl: "https://marble.worldlabs.ai/world/585ed6bd-7c49-4460-aac0-104f878af2f1",
+    thumbnailUrl: "https://unseen.maxxam.xyz/official-gallery/v1/media/world-multi-cover.webp",
     splats: {
-      preview: "https://cdn.marble.worldlabs.ai/d46b0360-e7cb-4e4d-95f7-d2a534cc3828/4cb97e64-590c-4261-9986-ba1efaf41933_sand_100k.spz",
-      standard: "https://cdn.marble.worldlabs.ai/d46b0360-e7cb-4e4d-95f7-d2a534cc3828/74132666-37d1-4be1-a4b0-b1a42aa747bc_sand_500k.spz"
+      preview: "https://cdn.marble.worldlabs.ai/585ed6bd-7c49-4460-aac0-104f878af2f1/df16e4b7-64cf-44e6-a3bd-a8c7e23926af_sand_100k.spz",
+      standard: "https://cdn.marble.worldlabs.ai/585ed6bd-7c49-4460-aac0-104f878af2f1/f308a552-6c02-4b4b-9c16-a40f14a032a3_sand_500k.spz"
     }
   },
   {
-    id: "5c13db49-dbed-43bc-8621-42e3f65fe57a",
-    name: "鼓浪屿",
-    place: "海边栏杆",
-    date: "2026.09.13",
-    spaceId: "space_1ce20dc7a13347f4bdb5f27ea678daf4",
-    marbleUrl: "https://marble.worldlabs.ai/world/5c13db49-dbed-43bc-8621-42e3f65fe57a",
-    thumbnailUrl: "https://cdn.marble.worldlabs.ai/5c13db49-dbed-43bc-8621-42e3f65fe57a/37dfbf21-d5fa-4682-b99a-7dffe1379b4f_sand_mpi/thumbnail.webp",
-    panoramaUrl: "https://cdn.marble.worldlabs.ai/5c13db49-dbed-43bc-8621-42e3f65fe57a/e7f58ca3-8817-4906-bf47-8af59454f2ab_pano/rgb_0.png",
+    id: "a6755a78-656b-4e3e-b78b-7eca5b903864",
+    name: "城堡 · 单图",
+    place: "openMVG 公开集 · 测试",
+    date: "2026.09.03",
+    marbleUrl: "https://marble.worldlabs.ai/world/a6755a78-656b-4e3e-b78b-7eca5b903864",
+    thumbnailUrl: "https://unseen.maxxam.xyz/official-gallery/v1/media/world-single-cover.webp",
     splats: {
-      preview: "https://cdn.marble.worldlabs.ai/5c13db49-dbed-43bc-8621-42e3f65fe57a/920bca23-516d-4cf4-857e-b1c297352560_sand_100k.spz",
-      standard: "https://cdn.marble.worldlabs.ai/5c13db49-dbed-43bc-8621-42e3f65fe57a/91bafbd1-c2d1-4df6-ad81-6f12828ace8f_sand_500k.spz"
+      preview: "https://cdn.marble.worldlabs.ai/a6755a78-656b-4e3e-b78b-7eca5b903864/85d35e8c-731f-4030-9940-1da1519a7f37_sand_100k.spz",
+      standard: "https://cdn.marble.worldlabs.ai/a6755a78-656b-4e3e-b78b-7eca5b903864/6efcaad5-0186-4541-8004-646eecccb5a6_sand_500k.spz"
     }
   },
   {
-    id: "aea6549c-4471-4858-8d29-5a8890a055a8",
-    name: "我",
-    place: "红砖楼阳台",
-    date: "2026.09.12",
-    spaceId: "space_f1d1abe059c04995a654ca6081455aa9",
-    marbleUrl: "https://marble.worldlabs.ai/world/aea6549c-4471-4858-8d29-5a8890a055a8",
-    thumbnailUrl: "https://cdn.marble.worldlabs.ai/aea6549c-4471-4858-8d29-5a8890a055a8/5396afcf-fee3-4f2c-9074-c9d3b7ce14a1_sand_mpi/thumbnail.webp",
-    panoramaUrl: "https://cdn.marble.worldlabs.ai/aea6549c-4471-4858-8d29-5a8890a055a8/e5a9d13c-61c4-475b-9d9b-d0a4871b258f_pano/rgb_0.png",
+    id: "6cd2492c-a891-4a66-b27d-77d9f643be21",
+    name: "陌生账号实测",
+    place: "城堡三图 · 测试",
+    date: "2026.09.11",
+    marbleUrl: "https://marble.worldlabs.ai/world/6cd2492c-a891-4a66-b27d-77d9f643be21",
+    thumbnailUrl: "https://cdn.marble.worldlabs.ai/6cd2492c-a891-4a66-b27d-77d9f643be21/91bc89a8-58ae-48d0-92c2-f24b0d7e6da8_sand_mpi/thumbnail.webp",
+    panoramaUrl: "https://cdn.marble.worldlabs.ai/6cd2492c-a891-4a66-b27d-77d9f643be21/4fc51afc-f423-4a74-9c97-5101c8cb74e6_pano/rgb_0.png",
     splats: {
-      preview: "https://cdn.marble.worldlabs.ai/aea6549c-4471-4858-8d29-5a8890a055a8/83f70d2c-d3aa-4abb-8f2c-ab64b4db6b35_sand_100k.spz",
-      standard: "https://cdn.marble.worldlabs.ai/aea6549c-4471-4858-8d29-5a8890a055a8/2a767487-5339-4d38-b0e1-692dc34868c2_sand_500k.spz"
+      preview: "https://cdn.marble.worldlabs.ai/6cd2492c-a891-4a66-b27d-77d9f643be21/26788c91-bfa1-4c37-bea3-64e895633aa7_sand_100k.spz",
+      standard: "https://cdn.marble.worldlabs.ai/6cd2492c-a891-4a66-b27d-77d9f643be21/885503d1-b6fd-4e5c-baab-8ab280c6f0b5_sand_500k.spz"
     }
   },
   {
     id: "a50e2924-7ff4-4dba-84de-7bc10874e12f",
     name: "测试毕业旅行",
-    place: "会议室",
+    place: "会议室 · 测试",
     date: "2026.09.12",
-    spaceId: "space_a60e0d79ef964b64a74961cd3efd52d4",
     marbleUrl: "https://marble.worldlabs.ai/world/a50e2924-7ff4-4dba-84de-7bc10874e12f",
     thumbnailUrl: "https://cdn.marble.worldlabs.ai/a50e2924-7ff4-4dba-84de-7bc10874e12f/d17bdb35-ffbc-4fe3-af70-c06718dd0526_sand_mpi/thumbnail.webp",
     panoramaUrl: "https://cdn.marble.worldlabs.ai/a50e2924-7ff4-4dba-84de-7bc10874e12f/040d30dd-ec10-403d-9f2e-54580785e6cd_pano/rgb_0.png",
@@ -57,10 +51,9 @@ export const worlds = [
   },
   {
     id: "5b1fd4bd-454e-40ba-aaa5-4788f93f0d55",
-    name: "我",
-    place: "会议室",
+    name: "会议室",
+    place: "测试生成",
     date: "2026.09.11",
-    spaceId: "space_3542afb79f83409d8a5e5786eacdbe84",
     marbleUrl: "https://marble.worldlabs.ai/world/5b1fd4bd-454e-40ba-aaa5-4788f93f0d55",
     thumbnailUrl: "https://cdn.marble.worldlabs.ai/5b1fd4bd-454e-40ba-aaa5-4788f93f0d55/dc6054e2-5900-43f3-90e5-c216447ae90f_sand_mpi/thumbnail.webp",
     panoramaUrl: "https://cdn.marble.worldlabs.ai/5b1fd4bd-454e-40ba-aaa5-4788f93f0d55/12db91f2-36ff-4d74-8e2d-b69987a10ab4_pano/rgb_0.png",
@@ -72,9 +65,8 @@ export const worlds = [
   {
     id: "1e019f98-86d9-4e7a-b360-044ef9c48c27",
     name: "留住的这一刻",
-    place: "厨房",
+    place: "厨房 · 早期测试",
     date: "2026.09.05",
-    spaceId: null,
     marbleUrl: "https://marble.worldlabs.ai/world/1e019f98-86d9-4e7a-b360-044ef9c48c27",
     thumbnailUrl: "https://cdn.marble.worldlabs.ai/1e019f98-86d9-4e7a-b360-044ef9c48c27/fa00ec9f-c9ec-495c-aea3-182d8c863cf4_sand_mpi/thumbnail.webp",
     panoramaUrl: "https://cdn.marble.worldlabs.ai/1e019f98-86d9-4e7a-b360-044ef9c48c27/486a36cb-a176-4ba0-b838-b0e3d2ceb149_pano/rgb_0.png",
